@@ -1,4 +1,4 @@
-import { saveTask, getTasks, deleteTask} from './storage.js';
+import { saveTask, getTasks, deleteTask} from 'storage.js';
 
 const clearButton = document.getElementById('clear_button');
 clearButton.addEventListener('click',()=>{
